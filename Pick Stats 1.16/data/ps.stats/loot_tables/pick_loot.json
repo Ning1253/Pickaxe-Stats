@@ -1,0 +1,287 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "stone",
+                    "functions": [
+                        {
+                            "function": "set_lore",
+                            "replace": true,
+                            "entity": "this",
+                            "lore": [
+                    
+                                "",
+                    
+                                [
+                                    {
+                                        "text": "-- ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                    
+                                    {
+                                        "selector": "@s",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                    
+                                    {
+                                        "text": "'s Mining Stats --",
+                                        "italic": false,
+                                        "color": "gray"
+                                    }
+                                ],
+                    
+                                [
+                                    {
+                                        "text": "Coal: ", 
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    },
+                    
+                                    {
+                                        "score":{
+                                            "name": "@s",
+                                            "objective": "tm.coal"
+                                        },
+                    
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    }
+                                ],
+                    
+                                [
+                                    {
+                                        "text": "Iron: ", 
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    },
+                    
+                                    {
+                                        "score":{
+                                            "name": "@s",
+                                            "objective": "tm.iron"
+                                        },
+                    
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    }
+                                ],
+                    
+                                [
+                                    {
+                                        "text": "Redstone: ", 
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    },
+                    
+                                    {
+                                        "score":{
+                                            "name": "@s",
+                                            "objective": "tm.redstone"
+                                        },
+                    
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    }
+                                ],
+                    
+                                [
+                                    {
+                                        "text": "Lapis: ", 
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    },
+                    
+                                    {
+                                        "score":{
+                                            "name": "@s",
+                                            "objective": "tm.lapis"
+                                        },
+                    
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    }
+                                ],
+                    
+                                [
+                                    {
+                                        "text": "Gold: ", 
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    },
+                    
+                                    {
+                                        "score":{
+                                            "name": "@s",
+                                            "objective": "tm.gold"
+                                        },
+                    
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    }
+                                ],
+                    
+                                [
+                                    {
+                                        "text": "Diamond: ", 
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    },
+                    
+                                    {
+                                        "score":{
+                                            "name": "@s",
+                                            "objective": "tm.diamond"
+                                        },
+                    
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    }
+                                ],
+                    
+                                [
+                                    {
+                                        "text": "Emerald: ", 
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    },
+                    
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "tm.emerald"
+                                        },
+                    
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    }
+                                ],
+                    
+                                [
+                                    {
+                                        "text": "Total Ore: ", 
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    },
+                    
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "tm.ore"
+                                        },
+                    
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    }
+                                ],
+                    
+                                "",
+                    
+                                {
+                                    "text": "-- Others --",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                    
+                                [
+                                    {
+                                        "text": "Stone: ",
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    },
+                    
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "tm.stone"
+                                        },
+                    
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    }
+                                ],
+                    
+                                [
+                                    {
+                                        "text": "Diorite: ",
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    },
+                    
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "tm.diorite"
+                                        },
+                    
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    }
+                                ],
+                    
+                                [
+                                    {
+                                        "text": "Granite: ",
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    },
+                    
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "tm.granite"
+                                        },
+                    
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    }
+                                ],
+                    
+                                [
+                                    {
+                                        "text": "Andesite: ",
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    },
+                    
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "tm.andesite"
+                                        },
+                    
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    }
+                                ],
+                    
+                                [
+                                    {
+                                        "text": "Cobblestone: ",
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    },
+                    
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "tm.cobblestone"
+                                        },
+                    
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
