@@ -1,0 +1,157 @@
+[
+    {
+        "function": "set_lore",
+        "replace": true,
+        "entity": "this",
+        "lore": [
+
+            "",
+
+            [
+                {
+                    "text": "-- ",
+                    "italic": false,
+                    "color": "gray"
+                },
+
+                {
+                    "selector": "@s",
+                    "italic": false,
+                    "color": "gray"
+                },
+
+                {
+                    "text": "'s Chopping Stats --",
+                    "italic": false,
+                    "color": "gray"
+                }
+            ],
+
+            [
+                {
+                    "text": "Oak: ", 
+                    "color": "dark_aqua",
+                    "italic": false
+                },
+
+                {
+                    "score":{
+                        "name": "@s",
+                        "objective": "tm.oak"
+                    },
+
+                    "color": "dark_aqua",
+                    "italic": false
+                }
+            ],
+
+            [
+                {
+                    "text": "Spruce: ", 
+                    "color": "dark_aqua",
+                    "italic": false
+                },
+
+                {
+                    "score":{
+                        "name": "@s",
+                        "objective": "tm.spruce"
+                    },
+
+                    "color": "dark_aqua",
+                    "italic": false
+                }
+            ],
+
+            [
+                {
+                    "text": "Birch: ", 
+                    "color": "dark_aqua",
+                    "italic": false
+                },
+
+                {
+                    "score":{
+                        "name": "@s",
+                        "objective": "tm.birch"
+                    },
+
+                    "color": "dark_aqua",
+                    "italic": false
+                }
+            ],
+
+            [
+                {
+                    "text": "Jungle: ", 
+                    "color": "dark_aqua",
+                    "italic": false
+                },
+
+                {
+                    "score":{
+                        "name": "@s",
+                        "objective": "tm.jungle"
+                    },
+
+                    "color": "dark_aqua",
+                    "italic": false
+                }
+            ],
+
+            [
+                {
+                    "text": "Acacia: ", 
+                    "color": "dark_aqua",
+                    "italic": false
+                },
+
+                {
+                    "score":{
+                        "name": "@s",
+                        "objective": "tm.acacia"
+                    },
+
+                    "color": "dark_aqua",
+                    "italic": false
+                }
+            ],
+
+            [
+                {
+                    "text": "Dark Oak: ", 
+                    "color": "dark_aqua",
+                    "italic": false
+                },
+
+                {
+                    "score":{
+                        "name": "@s",
+                        "objective": "tm.dark_oak"
+                    },
+
+                    "color": "dark_aqua",
+                    "italic": false
+                }
+            ],
+
+            [
+                {
+                    "text": "Total: ", 
+                    "color": "dark_aqua",
+                    "italic": false
+                },
+
+                {
+                    "score": {
+                        "name": "@s",
+                        "objective": "tm.wood"
+                    },
+
+                    "color": "dark_aqua",
+                    "italic": false
+                }
+            ]
+        ]
+    }
+]
