@@ -7,4 +7,4 @@ data modify storage ps.stats:item Item.Slot set value 0b
 
 data modify block 0 0 0 Items append from storage ps.stats:item Item
 
-loot replace entity @s weapon.mainhand mine 0 0 0 minecraft:air{drop_contents:1b}
+loot replace entity @s weapon.mainhand 1 mine 0 0 0 minecraft:air{drop_contents:1b}
