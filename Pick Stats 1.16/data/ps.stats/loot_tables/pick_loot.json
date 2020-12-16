@@ -179,8 +179,10 @@
                                         "italic": false
                                     }
                                 ],
-                    
-                                "",
+
+                                {
+                                    "text": ""
+                                },
                     
                                 {
                                     "text": "-- Others --",
@@ -271,6 +273,24 @@
                                         "score": {
                                             "name": "@s",
                                             "objective": "tm.cobblestone"
+                                        },
+                    
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    }
+                                ],
+
+                                [
+                                    {
+                                        "text": "Obsidian: ",
+                                        "color": "dark_aqua",
+                                        "italic": false
+                                    },
+                    
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "tm.obsidian"
                                         },
                     
                                         "color": "dark_aqua",

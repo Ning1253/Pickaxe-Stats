@@ -1,1 +1,0 @@
-execute as @a at @s run function ps.stats:display/disp
