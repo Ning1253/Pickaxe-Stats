@@ -1,3 +1,6 @@
+setblock 0 0 0 yellow_shulker_box
+forceload add 0 0
+
 scoreboard objectives add tm.coal minecraft.mined:minecraft.coal_ore
 scoreboard objectives add tm.iron minecraft.mined:minecraft.iron_ore
 scoreboard objectives add tm.redstone minecraft.mined:minecraft.redstone_ore
