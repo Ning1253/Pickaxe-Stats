@@ -1,0 +1,26 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"player": {
+					"gamemode": "creative"
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"player": {
+					"gamemode": "survival",
+					"level": {
+						"min": 5
+					}
+				}
+			}
+		}
+	]
+}

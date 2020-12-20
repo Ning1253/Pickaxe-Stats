@@ -1,7 +1,7 @@
 # First, we copy the item to a storage.
 data modify storage ps.stats:item Item set from entity @s SelectedItem
 
-# Clearing items in the shulker box, copying held item into shulker.
+# Clearing items in the shulker box, copying stone with lore from axe_loot into shulker.
 data modify block 0 0 0 Items set value []
 loot insert 0 0 0 loot ps.stats:axe_loot
 

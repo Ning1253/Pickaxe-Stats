@@ -1,9 +1,9 @@
 # First, we copy the item to a storage.
 data modify storage ps.stats:item Item set from entity @s SelectedItem
 
-# Clearing items in the shulker box, copying held item into shulker.
+# Clearing items in the shulker box, copying stone with lore from bow_loot into shulker.
 data modify block 0 0 0 Items set value []
-loot insert 0 0 0 loot ps.stats:shovel_loot
+loot insert 0 0 0 loot ps.stats:bow_loot
 
 # We can now modify what we want about the item here. Its 'Slot' is set to 0.
 execute as @s run data modify storage ps.stats:item Item.tag.display.Lore set from block 0 0 0 Items[0].tag.display.Lore
