@@ -42,7 +42,7 @@
 
                     [{
                             "text": "Dirt: ",
-                            "color": "dark_aqua",
+                            "color": "#705037",
                             "italic": false
                         },
 
@@ -52,14 +52,14 @@
                                 "objective": "ts.dirt"
                             },
 
-                            "color": "dark_aqua",
+                            "color": "white",
                             "italic": false
                         }
                     ],
 
                     [{
                             "text": "Grass: ",
-                            "color": "dark_aqua",
+                            "color": "#507a47",
                             "italic": false
                         },
 
@@ -69,31 +69,31 @@
                                 "objective": "ts.grass"
                             },
 
-                            "color": "dark_aqua",
+                            "color": "white",
                             "italic": false
                         }
                     ],
 
                     [{
                             "text": "Sand: ",
-                            "color": "dark_aqua",
+                            "color": "#dfd7b0",
                             "italic": false
                         },
 
                         {
                             "score": {
                                 "name": "@s",
-                                "objective": "ts.sand"
+                                "objective": "ts.sandtotal"
                             },
 
-                            "color": "dark_aqua",
+                            "color": "white",
                             "italic": false
                         }
                     ],
 
                     [{
                             "text": "Gravel: ",
-                            "color": "dark_aqua",
+                            "color": "#706967",
                             "italic": false
                         },
 
@@ -103,14 +103,14 @@
                                 "objective": "ts.gravel"
                             },
 
-                            "color": "dark_aqua",
+                            "color": "white",
                             "italic": false
                         }
                     ],
 
                     [{
                             "text": "Clay: ",
-                            "color": "dark_aqua",
+                            "color": "#aaacb8",
                             "italic": false
                         },
 
@@ -120,14 +120,14 @@
                                 "objective": "ts.clay"
                             },
 
-                            "color": "dark_aqua",
+                            "color": "white",
                             "italic": false
                         }
                     ],
 
                     [{
                             "text": "Snow: ",
-                            "color": "dark_aqua",
+                            "color": "#f0f9fb",
                             "italic": false
                         },
 
@@ -137,7 +137,7 @@
                                 "objective": "ts.totalsnow"
                             },
 
-                            "color": "dark_aqua",
+                            "color": "white",
                             "italic": false
                         }
                     ],
@@ -154,7 +154,7 @@
                                 "objective": "ts.totaldug"
                             },
 
-                            "color": "dark_aqua",
+                            "color": "white",
                             "italic": false
                         }
                     ]

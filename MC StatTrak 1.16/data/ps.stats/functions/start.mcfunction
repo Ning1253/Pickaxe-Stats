@@ -50,6 +50,10 @@ scoreboard objectives add tm.acacia minecraft.mined:minecraft.acacia_log
 scoreboard objectives add ts.acacia dummy
 scoreboard objectives add tm.dark_oak minecraft.mined:minecraft.dark_oak_log
 scoreboard objectives add ts.dark_oak dummy
+scoreboard objectives add tm.crimson_stem minecraft.mined:minecraft.crimson_stem
+scoreboard objectives add ts.crimson_stem dummy
+scoreboard objectives add tm.warped_stem minecraft.mined:minecraft.warped_stem
+scoreboard objectives add ts.warped_stem dummy
 scoreboard objectives add ts.wood dummy
 
 
@@ -60,6 +64,9 @@ scoreboard objectives add tm.grass minecraft.mined:minecraft.grass_block
 scoreboard objectives add ts.grass dummy
 scoreboard objectives add tm.sand minecraft.mined:minecraft.sand
 scoreboard objectives add ts.sand dummy
+scoreboard objectives add tm.redsand minecraft.mined:minecraft.red_sand
+scoreboard objectives add ts.redsand dummy
+scoreboard objectives add ts.sandtotal dummy
 scoreboard objectives add tm.gravel minecraft.mined:minecraft.gravel
 scoreboard objectives add ts.gravel dummy
 scoreboard objectives add tm.clay minecraft.mined:minecraft.clay

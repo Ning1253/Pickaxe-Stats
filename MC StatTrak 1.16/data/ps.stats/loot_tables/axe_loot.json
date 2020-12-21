@@ -42,7 +42,7 @@
 
                     [{
                             "text": "Oak: ",
-                            "color": "dark_aqua",
+                            "color": "#c29d62",
                             "italic": false
                         },
 
@@ -52,14 +52,14 @@
                                 "objective": "ts.oak"
                             },
 
-                            "color": "dark_aqua",
+                            "color": "white",
                             "italic": false
                         }
                     ],
 
                     [{
                             "text": "Spruce: ",
-                            "color": "dark_aqua",
+                            "color": "#886539",
                             "italic": false
                         },
 
@@ -69,14 +69,14 @@
                                 "objective": "ts.spruce"
                             },
 
-                            "color": "dark_aqua",
+                            "color": "white",
                             "italic": false
                         }
                     ],
 
                     [{
                             "text": "Birch: ",
-                            "color": "dark_aqua",
+                            "color": "#d7c185",
                             "italic": false
                         },
 
@@ -86,14 +86,14 @@
                                 "objective": "ts.birch"
                             },
 
-                            "color": "dark_aqua",
+                            "color": "white",
                             "italic": false
                         }
                     ],
 
                     [{
                             "text": "Jungle: ",
-                            "color": "dark_aqua",
+                            "color": "#b88764",
                             "italic": false
                         },
 
@@ -103,14 +103,14 @@
                                 "objective": "ts.jungle"
                             },
 
-                            "color": "dark_aqua",
+                            "color": "white",
                             "italic": false
                         }
                     ],
 
                     [{
                             "text": "Acacia: ",
-                            "color": "dark_aqua",
+                            "color": "#c26d3f",
                             "italic": false
                         },
 
@@ -120,14 +120,14 @@
                                 "objective": "ts.acacia"
                             },
 
-                            "color": "dark_aqua",
+                            "color": "white",
                             "italic": false
                         }
                     ],
 
                     [{
                             "text": "Dark Oak: ",
-                            "color": "dark_aqua",
+                            "color": "#53381a",
                             "italic": false
                         },
 
@@ -137,7 +137,41 @@
                                 "objective": "ts.dark_oak"
                             },
 
-                            "color": "dark_aqua",
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Crimson Stem: ",
+                            "color": "#7a3852",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.crimson_stem"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Warped Stem: ",
+                            "color": "#35817f",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.warped_stem"
+                            },
+
+                            "color": "white",
                             "italic": false
                         }
                     ],
@@ -154,7 +188,7 @@
                                 "objective": "ts.wood"
                             },
 
-                            "color": "dark_aqua",
+                            "color": "white",
                             "italic": false
                         }
                     ]

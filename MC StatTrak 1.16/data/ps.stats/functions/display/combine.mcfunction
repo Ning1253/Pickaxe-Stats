@@ -16,6 +16,8 @@ scoreboard players operation @s ts.wood += @s ts.birch
 scoreboard players operation @s ts.wood += @s ts.jungle
 scoreboard players operation @s ts.wood += @s ts.acacia
 scoreboard players operation @s ts.wood += @s ts.dark_oak
+scoreboard players operation @s ts.wood += @s ts.crimson_stem
+scoreboard players operation @s ts.wood += @s ts.warped_stem
 
 scoreboard players set @s ts.totalsnow 0
 scoreboard players operation @s ts.totalsnow += @s ts.snow
@@ -24,7 +26,7 @@ scoreboard players operation @s ts.totalsnow += @s ts.snow_block
 scoreboard players set @s ts.totaldug 0
 scoreboard players operation @s ts.totaldug += @s ts.dirt
 scoreboard players operation @s ts.totaldug += @s ts.grass
-scoreboard players operation @s ts.totaldug += @s ts.sand
+scoreboard players operation @s ts.totaldug += @s ts.sandtotal
 scoreboard players operation @s ts.totaldug += @s ts.gravel
 scoreboard players operation @s ts.totaldug += @s ts.clay
 scoreboard players operation @s ts.totaldug += @s ts.totalsnow
@@ -37,3 +39,7 @@ scoreboard players operation @s ts.hits += @s ts.is_hits
 scoreboard players operation @s ts.hits += @s ts.gs_hits
 scoreboard players operation @s ts.hits += @s ts.ds_hits
 scoreboard players operation @s ts.hits += @s ts.ns_hits
+
+scoreboard players set @s ts.sandtotal 0
+scoreboard players operation @s ts.sandtotal += @s ts.sand
+scoreboard players operation @s ts.sandtotal += @s ts.redsand

@@ -46,6 +46,10 @@ scoreboard objectives remove tm.acacia
 scoreboard objectives remove ts.acacia 
 scoreboard objectives remove tm.dark_oak
 scoreboard objectives remove ts.dark_oak 
+scoreboard objectives remove tm.crimson_stem
+scoreboard objectives remove ts.crimson_stem
+scoreboard objectives remove tm.warped_stem
+scoreboard objectives remove ts.warped_stem
 scoreboard objectives remove ts.wood 
 
 
@@ -54,8 +58,11 @@ scoreboard objectives remove tm.dirt
 scoreboard objectives remove ts.dirt 
 scoreboard objectives remove tm.grass 
 scoreboard objectives remove ts.grass 
-scoreboard objectives remove tm.sand 
-scoreboard objectives remove ts.sand 
+scoreboard objectives remove tm.sand
+scoreboard objectives remove ts.sand
+scoreboard objectives remove tm.redsand 
+scoreboard objectives remove ts.redsand
+scoreboard objectives remove ts.sandtotal
 scoreboard objectives remove tm.gravel 
 scoreboard objectives remove ts.gravel 
 scoreboard objectives remove tm.clay 
