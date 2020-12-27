@@ -1,10 +1,10 @@
 # MC StatTrak
 
-[![Minecraft](https://img.shields.io/badge/MC-1.16.*-success)](https://github.com/Ning1253/Pickaxe-Stats/tree/1.16) [![Minecraft](https://img.shields.io/badge/MC-1.17.*-success)](https://github.com/Ning1253/Pickaxe-Stats/tree/1.17)
+[![Minecraft](https://img.shields.io/badge/MC-1.16.*-success?style=flat-square)](https://github.com/Ning1253/Pickaxe-Stats/tree/1.16) [![Minecraft](https://img.shields.io/badge/MC-1.17.*-success?style=flat-square)](https://github.com/Ning1253/Pickaxe-Stats/tree/1.17)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Ning1253/Pickaxe-Stats?style=flat-square) ![Lines of Code](https://img.shields.io/tokei/lines/github/Ning1253/Pickaxe-Stats?label=lines%20of%20code&style=flat-square)
 
-A Minecraft datapack to add StatTrak™ capabilities to your weapon and tools.
+A Minecraft datapack which adds StatTrak™ capabilities to your weapons and tools based on [Ning1253's Pickaxe Stats](https://github.com/Ning1253/Pickaxe-Stats).
 
 ## Installation
 
@@ -30,3 +30,11 @@ Stats will only be tracked when using tools with the StatTrak label.
 ## Known Issues
 
 - Bows do not track damage dealt. This is an issue with Minecraft itself as the damage_dealt scoreboard objective [has not tracked bow stats since 1.7](https://bugs.mojang.com/browse/MC-29519).
+- Some stats appear blank (instead of 0)
+- For elytra distances less than .1km (.01, .02, etc.), values are incorrected shown as multiples of .1 (.1, .2, etc).
+- Low tps causes items to disappear
+
+## Planned
+
+- Tracking for all tools: Shears, Crossbows, Fishing Rods, Flint and Steels, Shields, Tridents, and Totems of Undying.
+- Toggleable stats

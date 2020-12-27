@@ -38,3 +38,7 @@ execute as @s[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{StatTrak:"t
 
 #Bows
 execute as @s[nbt={SelectedItem:{id:"minecraft:bow",tag:{StatTrak:"true"}}}] run function ps.stats:display/bow
+
+#Elytras
+execute as @s[nbt={Inventory:[{Slot:102b,id:"minecraft:elytra",tag:{StatTrak:"true"}}]}] run function ps.stats:display/elytra
+execute as @s[nbt={SelectedItem:{id:"minecraft:elytra",tag:{StatTrak:"true"}}}] run function ps.stats:display/elytra

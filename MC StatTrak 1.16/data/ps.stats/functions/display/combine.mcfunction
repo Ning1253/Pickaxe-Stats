@@ -8,7 +8,6 @@ scoreboard players operation @s ts.ore += @s ts.diamond
 scoreboard players operation @s ts.ore += @s ts.emerald
 scoreboard players operation @s ts.ore += @s ts.quartz
 
-
 scoreboard players set @s ts.wood 0
 scoreboard players operation @s ts.wood += @s ts.oak
 scoreboard players operation @s ts.wood += @s ts.spruce

@@ -109,3 +109,14 @@ scoreboard objectives remove tm.shots
 scoreboard objectives remove ts.shots 
 scoreboard objectives remove tm.bow_damage
 scoreboard objectives remove ts.bow_damage 
+
+#Elytra
+scoreboard objectives remove tm.flown
+scoreboard objectives remove ts.flown 
+scoreboard objectives remove ts.flowndisp 
+scoreboard objectives remove 100000 
+scoreboard objectives remove ts.flowndispdeci 
+scoreboard objectives remove 1000 
+scoreboard objectives remove p1.flowndispdeci 
+scoreboard objectives remove p2.flowndispdeci 
+scoreboard objectives remove 2 

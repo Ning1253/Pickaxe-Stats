@@ -114,5 +114,20 @@ scoreboard objectives add tm.shots minecraft.used:minecraft.bow
 scoreboard objectives add ts.shots dummy
 
 
+#Elytra
+scoreboard objectives add tm.flown minecraft.custom:minecraft.aviate_one_cm
+scoreboard objectives add ts.flown dummy
+scoreboard objectives add ts.flowndisp dummy
+scoreboard objectives add 100000 dummy
+scoreboard players set 100000 100000 100000
+scoreboard objectives add ts.flowndispdeci dummy
+scoreboard objectives add 1000 dummy
+scoreboard players set 1000 1000 1000
+scoreboard objectives add p1.flowndispdeci dummy
+scoreboard objectives add p2.flowndispdeci dummy
+scoreboard objectives add 2 dummy
+scoreboard players set 2 2 2
 
-tellraw @p ["",{"text":"[][]","obfuscated":true,"color":"gold"},{"text":"--------------------------","color":"dark_red"},{"text":"[][]","obfuscated":true,"color":"gold"},{"text":"\n"},{"text":"\n"},{"text":"Loaded Datapack: ","bold":true,"color":"aqua"},{"text":"Tool Stat Tracker","underlined":true,"color":"yellow","clickEvent":{"action":"open_url","value":"https://github.com/Ning1253/Pickaxe-Stats"}},{"text":"\n"},{"text":"\n"},{"text":"By: ","bold":true,"color":"aqua"},{"text":"Ning1253","underlined":true,"color":"white","clickEvent":{"action":"open_url","value":"https://github.com/Ning1253"}},{"text":"\n"},{"text":"\n"},{"text":"Support: ","bold":true,"color":"aqua"},{"text":"Ppenguin10","underlined":true,"color":"white","clickEvent":{"action":"open_url","value":"https://github.com/PeterPgit"}},{"text":"\n"},{"text":"\n"},{"text":"Delete Datapack","bold":true,"underlined":true,"color":"dark_red","clickEvent":{"action":"run_command","value":"/execute as @a at @s run function ps.stats:remove"},"hoverEvent":{"action":"show_text","contents":{"text":"THIS CANNOT BE UNDONE!","bold":true,"underlined":true,"color":"dark_red"}}},{"text":"\n"},{"text":"\n"},{"text":"[][]","obfuscated":true,"color":"gold"},{"text":"--------------------------","color":"dark_red"},{"text":"[][]","obfuscated":true,"color":"gold"}]
+
+
+tellraw @p ["",{"text":"[][]","obfuscated":true,"color":"gold"},{"text":"--------------------------","color":"dark_red"},{"text":"[][]","obfuscated":true,"color":"gold"},{"text":"\n"},{"text":"\n"},{"text":"Loaded Datapack: ","bold":true,"color":"aqua"},{"text":"Tool Stat Tracker","underlined":true,"color":"yellow","clickEvent":{"action":"open_url","value":"https://github.com/Ning1253/Pickaxe-Stats"}},{"text":"\n"},{"text":"\n"},{"text":"By: ","bold":true,"color":"aqua"},{"text":"Ning1253","underlined":true,"color":"white","clickEvent":{"action":"open_url","value":"https://github.com/Ning1253"}},{"text":"\n"},{"text":"\n"},{"text":"Modified By: ","bold":true,"color":"aqua"},{"text":"Ppenguin10","underlined":true,"color":"white","clickEvent":{"action":"open_url","value":"https://github.com/PeterPgit"}},{"text":"\n"},{"text":"\n"},{"text":"Delete Datapack","bold":true,"underlined":true,"color":"dark_red","clickEvent":{"action":"run_command","value":"/execute as @a at @s run function ps.stats:remove"},"hoverEvent":{"action":"show_text","contents":{"text":"THIS CANNOT BE UNDONE!","bold":true,"underlined":true,"color":"dark_red"}}},{"text":"\n"},{"text":"\n"},{"text":"[][]","obfuscated":true,"color":"gold"},{"text":"--------------------------","color":"dark_red"},{"text":"[][]","obfuscated":true,"color":"gold"}]
