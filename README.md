@@ -26,15 +26,15 @@ Stats will only be tracked when using tools with the StatTrak label.
 - Shovels
 - Swords
 - Bows
+- Elytras
 
 ## Known Issues
 
 - Bows do not track damage dealt. This is an issue with Minecraft itself as the damage_dealt scoreboard objective [has not tracked bow stats since 1.7](https://bugs.mojang.com/browse/MC-29519).
-- Some stats appear blank (instead of 0)
+- Some stats appear blank (instead of 0).
 - For elytra distances less than .1km (.01, .02, etc.), values are incorrected shown as multiples of .1 (.1, .2, etc).
-- Low tps causes items to disappear
 
 ## Planned
 
-- Tracking for all tools: Shears, Crossbows, Fishing Rods, Flint and Steels, Shields, Tridents, and Totems of Undying.
+- Tracking for all tools: Shears, Hoes, Crossbows, Fishing Rods, Flint and Steels, Shields, and Tridents.
 - Toggleable stats
