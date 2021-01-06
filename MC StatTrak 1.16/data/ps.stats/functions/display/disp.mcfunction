@@ -1,12 +1,12 @@
 execute as @s run function ps.stats:display/combine
 
 #Pickaxe
-execute as @a[nbt={SelectedItem:{id:"minecraft:wooden_pickaxe",tag:{StatTrak:"true"}}}] at @s run function ps.stats:display/pickaxe
-execute as @a[nbt={SelectedItem:{id:"minecraft:stone_pickaxe",tag:{StatTrak:"true"}}}] at @s run function ps.stats:display/pickaxe
-execute as @a[nbt={SelectedItem:{id:"minecraft:iron_pickaxe",tag:{StatTrak:"true"}}}] at @s run function ps.stats:display/pickaxe
-execute as @a[nbt={SelectedItem:{id:"minecraft:golden_pickaxe",tag:{StatTrak:"true"}}}] at @s run function ps.stats:display/pickaxe
-execute as @a[nbt={SelectedItem:{id:"minecraft:diamond_pickaxe",tag:{StatTrak:"true"}}}] at @s run function ps.stats:display/pickaxe
-execute as @a[nbt={SelectedItem:{id:"minecraft:netherite_pickaxe",tag:{StatTrak:"true"}}}] at @s run function ps.stats:display/pickaxe
+execute as @s[nbt={SelectedItem:{id:"minecraft:wooden_pickaxe",tag:{StatTrak:"true"}}}] run function ps.stats:display/pickaxe
+execute as @s[nbt={SelectedItem:{id:"minecraft:stone_pickaxe",tag:{StatTrak:"true"}}}] run function ps.stats:display/pickaxe
+execute as @s[nbt={SelectedItem:{id:"minecraft:iron_pickaxe",tag:{StatTrak:"true"}}}] run function ps.stats:display/pickaxe
+execute as @s[nbt={SelectedItem:{id:"minecraft:golden_pickaxe",tag:{StatTrak:"true"}}}] run function ps.stats:display/pickaxe
+execute as @s[nbt={SelectedItem:{id:"minecraft:diamond_pickaxe",tag:{StatTrak:"true"}}}] run function ps.stats:display/pickaxe
+execute as @s[nbt={SelectedItem:{id:"minecraft:netherite_pickaxe",tag:{StatTrak:"true"}}}] run function ps.stats:display/pickaxe
 
 
 #Axes
