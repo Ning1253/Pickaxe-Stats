@@ -1,0 +1,329 @@
+{
+    "type": "entity",
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+            "type": "item",
+            "name": "stone",
+            "functions": [{
+                "function": "set_lore",
+                "replace": false,
+                "entity": "this",
+                "lore": [
+
+                    {
+                        "text": "StatTrak",
+                        "italic": false,
+                        "bold": false,
+                        "color": "gold"
+                    },
+
+                    {
+                        "text": ""
+                    },
+
+                    [{
+                            "text": "-- ",
+                            "italic": false,
+                            "color": "gray"
+                        },
+
+                        {
+                            "selector": "@s",
+                            "italic": false,
+                            "color": "gray"
+                        },
+
+                        {
+                            "text": "'s Mining Stats --",
+                            "italic": false,
+                            "color": "gray"
+                        }
+                    ],
+
+                    [{
+                            "text": "Coal: ",
+                            "color": "#363c44",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.coal"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Iron: ",
+                            "color": "#aaaaaa",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.iron"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Redstone: ",
+                            "color": "#ea0b18",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.redstone"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Lapis: ",
+                            "color": "#1c53a8",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.lapis"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Gold: ",
+                            "color": "#f9d656",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.gold"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Diamond: ",
+                            "color": "#54fcfc",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.diamond"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Emerald: ",
+                            "color": "#14952d",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.emerald"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Quartz: ",
+                            "color": "white",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.quartz"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Total Ore: ",
+                            "color": "dark_aqua",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.ore"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    {
+                        "text": ""
+                    },
+
+                    {
+                        "text": "-- Others --",
+                        "italic": false,
+                        "color": "gray"
+                    },
+
+                    [{
+                            "text": "Stone: ",
+                            "color": "#7d7d7d",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.stone"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Cobblestone: ",
+                            "color": "#4e4e4f",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.cobblestone"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Diorite: ",
+                            "color": "#e5e5e5",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.diorite"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Granite: ",
+                            "color": "#9c6957",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.granite"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Andesite: ",
+                            "color": "#88888c",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.andesite"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Obsidian: ",
+                            "color": "#211839",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.obsidian"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Netherrack: ",
+                            "color": "#4d0e0f",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.netherrack"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ]
+                ]
+            }]
+        }]
+    }]
+}

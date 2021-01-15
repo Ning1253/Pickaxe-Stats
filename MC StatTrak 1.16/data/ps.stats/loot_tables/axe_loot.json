@@ -1,0 +1,199 @@
+{
+    "type": "entity",
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+            "type": "item",
+            "name": "stone",
+            "functions": [{
+                "function": "set_lore",
+                "replace": true,
+                "entity": "this",
+                "lore": [
+
+                    {
+                        "text": "StatTrak",
+                        "italic": false,
+                        "color": "gold"
+                    },
+
+                    {
+                        "text": ""
+                    },
+
+                    [{
+                            "text": "-- ",
+                            "italic": false,
+                            "color": "gray"
+                        },
+
+                        {
+                            "selector": "@s",
+                            "italic": false,
+                            "color": "gray"
+                        },
+
+                        {
+                            "text": "'s Chopping Stats --",
+                            "italic": false,
+                            "color": "gray"
+                        }
+                    ],
+
+                    [{
+                            "text": "Oak: ",
+                            "color": "#c29d62",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.oak"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Spruce: ",
+                            "color": "#886539",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.spruce"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Birch: ",
+                            "color": "#d7c185",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.birch"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Jungle: ",
+                            "color": "#b88764",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.jungle"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Acacia: ",
+                            "color": "#c26d3f",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.acacia"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Dark Oak: ",
+                            "color": "#53381a",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.dark_oak"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Crimson Stem: ",
+                            "color": "#7a3852",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.crimson_stem"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Warped Stem: ",
+                            "color": "#35817f",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.warped_stem"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Total: ",
+                            "color": "dark_aqua",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.wood"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ]
+                ]
+            }]
+        }]
+    }]
+}

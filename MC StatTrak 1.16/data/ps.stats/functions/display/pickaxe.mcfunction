@@ -1,7 +1,7 @@
 # First, we copy the item to a storage.
 data modify storage ps.stats:item Item set from entity @s SelectedItem
 
-# Clearing items in the shulker box, copying held item into shulker.
+# Clearing items in the shulker box, copying stone with lore from pick_loot into shulker.
 data modify block 0 0 0 Items set value []
 loot insert 0 0 0 loot ps.stats:pick_loot
 
@@ -13,4 +13,4 @@ data modify storage ps.stats:item Item.Slot set value 0b
 data modify block 0 0 0 Items append from storage ps.stats:item Item
 
 # Then, we move the shulker box item back to the player's inventory.
-loot replace entity @s weapon.mainhand 1 mine 0 0 0 minecraft:air{drop_contents:1b}
+execute as @s if block 0 0 0 yellow_shulker_box{Items:[{tag:{StatTrak:"true"}}]} run loot replace entity @s weapon.mainhand 1 mine 0 0 0 minecraft:air{drop_contents:1b}

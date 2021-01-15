@@ -1,0 +1,97 @@
+{
+  "type": "entity",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "item",
+      "name": "stone",
+      "functions": [{
+        "function": "set_lore",
+        "replace": true,
+        "entity": "this",
+        "lore": [
+
+          {
+            "text": "StatTrak",
+            "italic": false,
+            "color": "gold"
+          },
+
+          {
+            "text": ""
+          },
+
+          [{
+              "text": "-- ",
+              "italic": false,
+              "color": "gray"
+            },
+
+            {
+              "selector": "@s",
+              "italic": false,
+              "color": "gray"
+            },
+
+            {
+              "text": "'s Bow Stats --",
+              "italic": false,
+              "color": "gray"
+            }
+          ],
+
+          [{
+              "text": "Mob Kills: ",
+              "color": "dark_aqua",
+              "italic": false
+            },
+
+            {
+              "score": {
+                "name": "@s",
+                "objective": "ts.bow_mob_kills"
+              },
+
+              "color": "dark_aqua",
+              "italic": false
+            }
+          ],
+
+          [{
+              "text": "Player Kills: ",
+              "color": "dark_aqua",
+              "italic": false
+            },
+
+            {
+              "score": {
+                "name": "@s",
+                "objective": "ts.bow_p_kills"
+              },
+
+              "color": "dark_aqua",
+              "italic": false
+            }
+          ],
+
+          [{
+              "text": "Shots: ",
+              "color": "dark_aqua",
+              "italic": false
+            },
+
+            {
+              "score": {
+                "name": "@s",
+                "objective": "ts.shots"
+              },
+
+              "color": "dark_aqua",
+              "italic": false
+            }
+          ]
+        ]
+      }]
+    }]
+  }]
+}

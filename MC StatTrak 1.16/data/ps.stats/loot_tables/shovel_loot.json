@@ -1,0 +1,165 @@
+{
+    "type": "entity",
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+            "type": "item",
+            "name": "stone",
+            "functions": [{
+                "function": "set_lore",
+                "replace": true,
+                "entity": "this",
+                "lore": [
+
+                    {
+                        "text": "StatTrak",
+                        "italic": false,
+                        "color": "gold"
+                    },
+
+                    {
+                        "text": ""
+                    },
+
+                    [{
+                            "text": "-- ",
+                            "italic": false,
+                            "color": "gray"
+                        },
+
+                        {
+                            "selector": "@s",
+                            "italic": false,
+                            "color": "gray"
+                        },
+
+                        {
+                            "text": "'s Digging Stats --",
+                            "italic": false,
+                            "color": "gray"
+                        }
+                    ],
+
+                    [{
+                            "text": "Dirt: ",
+                            "color": "#705037",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.dirt"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Grass: ",
+                            "color": "#507a47",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.grass"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Sand: ",
+                            "color": "#dfd7b0",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.sandtotal"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Gravel: ",
+                            "color": "#706967",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.gravel"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Clay: ",
+                            "color": "#aaacb8",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.clay"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Snow: ",
+                            "color": "#f0f9fb",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.totalsnow"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ],
+
+                    [{
+                            "text": "Total: ",
+                            "color": "dark_aqua",
+                            "italic": false
+                        },
+
+                        {
+                            "score": {
+                                "name": "@s",
+                                "objective": "ts.totaldug"
+                            },
+
+                            "color": "white",
+                            "italic": false
+                        }
+                    ]
+                ]
+            }]
+        }]
+    }]
+}

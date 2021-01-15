@@ -1,0 +1,85 @@
+{
+  "type": "entity",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "item",
+      "name": "stone",
+      "functions": [{
+        "function": "set_lore",
+        "replace": true,
+        "entity": "this",
+        "lore": [
+
+          {
+            "text": "StatTrak",
+            "italic": false,
+            "color": "gold"
+          },
+
+          {
+            "text": ""
+          },
+
+          [{
+              "text": "-- ",
+              "italic": false,
+              "color": "gray"
+            },
+
+            {
+              "selector": "@s",
+              "italic": false,
+              "color": "gray"
+            },
+
+            {
+              "text": "'s Flight Stats --",
+              "italic": false,
+              "color": "gray"
+            }
+          ],
+
+          [{
+              "text": "Distance Flown: ",
+              "color": "dark_aqua",
+              "italic": false
+            },
+
+            {
+              "score": {
+                "name": "@s",
+                "objective": "ts.flowndisp"
+              },
+
+              "color": "white",
+              "italic": false
+            },
+
+            {
+              "text": ".",
+              "italic": false,
+              "color": "white"
+            },
+
+            {
+              "score": {
+                "name": "@s",
+                "objective": "ts.flowndispdeci"
+              },
+
+              "color": "white",
+              "italic": false
+            },
+
+            {
+              "text": "km",
+              "italic": false,
+              "color": "white"
+            }
+          ]
+        ]
+      }]
+    }]
+  }]
+}
